@@ -3,10 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/q842/AndroidStudioProjects/SHAML2/app/src/main/res/drawable/background_splashscreen.xml" value="0.13" />
         <entry key="..\:/Users/q842/AndroidStudioProjects/SHAML2/app/src/main/res/drawable/input_bg.xml" value="0.13" />
-        <entry key="..\:/Users/q842/AndroidStudioProjects/SHAML2/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/q842/AndroidStudioProjects/SHAML2/app/src/main/res/layout/activity_aladby.xml" value="0.15443840579710144" />
+        <entry key="..\:/Users/q842/AndroidStudioProjects/SHAML2/app/src/main/res/layout/activity_alalmi.xml" value="0.15443840579710144" />
+        <entry key="..\:/Users/q842/AndroidStudioProjects/SHAML2/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/q842/AndroidStudioProjects/SHAML2/app/src/main/res/layout/activity_quiz.xml" value="0.15443840579710144" />
         <entry key="..\:/Users/q842/AndroidStudioProjects/SHAML2/app/src/main/res/layout/activity_register.xml" value="0.22" />
+        <entry key="..\:/Users/q842/AndroidStudioProjects/SHAML2/app/src/main/res/layout/activity_tips.xml" value="0.18" />
         <entry key="..\:/Users/q842/AndroidStudioProjects/SHAML2/app/src/main/res/layout/login.xml" value="0.22" />
+        <entry key="..\:/Users/q842/AndroidStudioProjects/SHAML2/app/src/main/res/layout/slide.xml" value="0.2" />
       </map>
     </option>
   </component>
