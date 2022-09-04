@@ -4,18 +4,107 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/quizbg"
     tools:context=".Quiz">
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="173dp"
-        android:layout_marginTop="39dp"
-        android:layout_marginEnd="180dp"
-        android:text="Qiuz"
-        android:textSize="34sp"
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/textQuestionNo"
+            android:layout_width="158dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="237dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Question: 1/n"
+            android:textColor="@color/blue"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/textScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textQuestionNo"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Score: 0"
+            android:textColor="@color/blue"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/textTimer"
+            android:layout_width="94dp"
+            android:layout_height="55dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="-5dp"
+            android:layout_marginBottom="588dp"
+            android:text="00:20"
+            android:textColor="@color/blue"
+            android:textSize="25dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="السؤال هنا سوف يكون؟...."
+            android:id="@+id/textQuestion"
+            android:layout_above="@id/radioGroup"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/white"
+            android:textSize="23dp"
+            android:textAlignment="center"/>
+
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="315dp"
+            android:layout_height="169dp"
+            android:layout_centerInParent="true">
+
+            <RadioButton
+                android:id="@+id/rb1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Option 1        "
+                android:textSize="40sp" />
+
+            <RadioButton
+                android:id="@+id/rb2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Option 2             "
+                android:textSize="40sp" />
+
+            <RadioButton
+                android:id="@+id/rb3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Option 3             "
+                android:textSize="40sp" />
+
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnNext1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/radioGroup"
+            android:layout_marginTop="20dp"
+            android:text="السؤال التالي"
+            android:textSize="20dp"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/blue"/>
+
+    </RelativeLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
