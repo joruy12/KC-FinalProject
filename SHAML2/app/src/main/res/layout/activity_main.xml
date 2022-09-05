@@ -21,13 +21,14 @@
 
     <androidx.cardview.widget.CardView
         android:id="@+id/aladby"
-        android:layout_width="168dp"
-        android:layout_height="144dp"
+        android:layout_width="177dp"
+        android:layout_height="146dp"
         android:layout_rowWeight="1"
         android:layout_columnWeight="1"
         android:layout_gravity="fill"
         android:layout_margin="8dp"
         android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
         app:cardCornerRadius="8dp"
         app:cardElevation="8dp"
         app:layout_constraintEnd_toStartOf="@+id/al3lmy"
@@ -51,6 +52,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="التخصصات الادبيه"
+                android:textColor="@color/blue"
                 android:textSize="24sp">
 
             </TextView>
@@ -62,8 +64,8 @@
 
     <androidx.cardview.widget.CardView
         android:id="@+id/al3lmy"
-        android:layout_width="171dp"
-        android:layout_height="138dp"
+        android:layout_width="178dp"
+        android:layout_height="142dp"
         android:layout_rowWeight="1"
         android:layout_columnWeight="1"
         android:layout_gravity="fill"
@@ -73,7 +75,7 @@
         app:cardCornerRadius="8dp"
         app:cardElevation="8dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/aladby"
+        app:layout_constraintStart_toEndOf="@+id/aladbyca"
         app:layout_constraintTop_toBottomOf="@+id/image_slider"
         tools:ignore="MissingConstraints">
 
@@ -93,6 +95,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="التخصصات العلميه"
+                android:textColor="@color/blue"
                 android:textSize="24sp">
 
             </TextView>
@@ -104,12 +107,13 @@
 
     <androidx.cardview.widget.CardView
         android:id="@+id/tipsCardView"
-        android:layout_width="169dp"
-        android:layout_height="141dp"
+        android:layout_width="180dp"
+        android:layout_height="147dp"
         android:layout_rowWeight="1"
         android:layout_columnWeight="1"
         android:layout_gravity="fill"
         android:layout_margin="8dp"
+        android:layout_marginTop="16dp"
         app:cardCornerRadius="8dp"
         app:cardElevation="8dp"
         app:layout_constraintEnd_toStartOf="@+id/quiz"
@@ -133,6 +137,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="نصائح شامل"
+                android:textColor="@color/blue"
                 android:textSize="24sp">
 
             </TextView>
@@ -144,8 +149,8 @@
 
     <androidx.cardview.widget.CardView
         android:id="@+id/quiz"
-        android:layout_width="174dp"
-        android:layout_height="145dp"
+        android:layout_width="180dp"
+        android:layout_height="146dp"
         android:layout_rowWeight="1"
         android:layout_columnWeight="1"
         android:layout_gravity="fill"
@@ -174,6 +179,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="نلعب شوي؟"
+                android:textColor="@color/blue"
                 android:textSize="24sp">
 
             </TextView>
@@ -183,6 +189,63 @@
 
     </androidx.cardview.widget.CardView>
 
+    <androidx.cardview.widget.CardView
+        android:id="@+id/Calculator"
+        android:layout_width="212dp"
+        android:layout_height="107dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:layout_margin="8dp"
+        android:layout_marginStart="191dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="100dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tipsCardView"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="132dp"
+                android:layout_height="76dp"
+                android:src="@drawable/calculat" />
+
+            <TextView
+                android:layout_width="144dp"
+                android:layout_height="wrap_content"
+                android:text="احسب درجتك"
+                android:textColor="@color/blue"
+                android:textSize="24sp">
+
+            </TextView>
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/callbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/btn_background"
+        android:drawableTop="@drawable/ic_phone_24"
+        android:fontFamily="@font/racing_sans_one"
+        android:text="connect us"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/Calculator"
+        app:layout_constraintStart_toStartOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

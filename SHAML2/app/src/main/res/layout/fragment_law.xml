@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lawbg"
+    tools:context=".LawFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <Button
+        android:id="@+id/btnPDF4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:backgroundTint="@color/blue"
+        android:text="انقر لعرضPDF  "
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingBottom="300dp"
+        android:text="رافقت الحقوق والقوانين بأنواعها الحضارة الإنسانيّة خلال وجودها وبمختلف مستوياتها ، كما تعدُّ القوانين القوية والحاكمة أبرز الأدلة على التطور الحضاري للدول والمجتمعات الإنسانيّة، إضافة إلى ذلك يعد علم القانون من أعرق العلوم الإنسانيّة و أقدمها، حيث شهد اعتناءً بالغًا منذ أقدم العصور، و لا يزال في تطور مستمر حتى دخل عالم الدراسة الأكاديمية، بل هو أحد أقدم التخصصات الجامعيّة على مستوى العالم عمومًا"
+        android:textColor="#FBFBFB"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="400dp"
+        android:layout_height="476dp"
+        android:layout_gravity="center"
+        android:paddingTop="200dp"
+        android:text="لا شكَّ أنَّ أهمية تخصص الحقوق ستظهر بمجرد تخيل الحياة الإنسانيّة بدون قوانين تنظممها، حيث ستسود شريعة الغاب، كما سيأكل القوي الضعيف في معظم الأحيان، لذلك يصنَّفُ تخصصُ الحقوق في قائمة أهمِّ التخصصات الجامعية بلا منازع. وفي نفس السياق يسعى الحقوقيون بشكل دائم إلى محاولة تحقيق العدالة والمساواة بين البشر جميعًا، ونتيجة هذا الهدف النبيل لا يمكن أن تستمر المجتمعات البشرية من دون  هؤلاء الساعين لتلك الأهداف."
+        android:textColor="#F4F1F1"
+        android:textSize="20sp" />
+
+</FrameLayout>

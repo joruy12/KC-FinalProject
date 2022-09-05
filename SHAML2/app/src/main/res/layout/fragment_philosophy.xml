@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/philosobg"
+    tools:context=".PhilosophyFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <Button
+        android:id="@+id/btnPDF5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:backgroundTint="@color/blue"
+        android:text="انقر لعرضPDF  "
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|right"
+        android:paddingBottom="200dp"
+        android:text="الفلسفة هي أحد المجالات الدراسية التي تختص بالمسائل الأساسية التي تتكون نتيجة التفكير في طبيعة العالم ومكان الإنسان في هذا العالم الكبير، فهي تتمحور حول المنظور والأفكار التي تعطيها للأشخاص عن أنفسهم وعن الأنشطة التي يجب التعايش معها وفهمها، وذلك من خلال تأكيد الفلسفة على عادات معينة خاصة بالفكر."
+        android:textColor="#F6F1F1"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|right"
+        android:paddingTop="100dp"
+        android:text="والفلسفه يُدرس فيها • مبادئ التفكير الفلسفي  • مفاهيم ونصوص فلسفية  • أسس علم الاجتماع  • ميادين علم الاجتماع  • مدخل إلى تاريخ علم النفس  • ميادين واتجاهات علم النفس  • اللغة الفرنسية"
+        android:textColor="#FAF7F7"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="339dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|right"
+        android:paddingTop="350dp"
+        android:text="لعل اهم ما يميز علم الفلسفة ارتباطه الوثيق وتعلقه بعلوم أخرى. لهذا، يصفف التخصص أنه ضمن قائمة تخصصات العلوم الإنسانية وذلك لانخراطه في معظم أمور الحياة."
+        android:textColor="#F8F5F5"
+        android:textSize="18sp" />
+
+</FrameLayout>

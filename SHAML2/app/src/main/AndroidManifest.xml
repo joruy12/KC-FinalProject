@@ -13,9 +13,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SHAML"
         tools:targetApi="31" >
-
-        <activity android:name=".login"/>
-
+        <activity
+            android:name=".alalmiCalculator"
+            android:exported="false" />
+        <activity
+            android:name=".aladbyCalculator"
+            android:exported="false" />
+        <activity
+            android:name=".Calculator"
+            android:exported="false" />
+        <activity android:name=".login" />
         <activity
             android:name=".alalmi"
             android:exported="false" />
@@ -37,7 +44,7 @@
         <activity
             android:name=".SplashScreen"
             android:exported="true"
-            android:theme="@style/SplashScreen">
+            android:theme="@style/SplashScreen" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

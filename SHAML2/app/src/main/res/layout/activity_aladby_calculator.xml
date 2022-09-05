@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_1"
+    tools:context=".aladbyCalculator">
+
+    <EditText
+        android:id="@+id/alahsa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="23dp"
+        android:ems="10"
+        android:hint="الاحصاء 40%"
+        android:textColor="@color/white"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/alquraan"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.517"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/alquraan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="103dp"
+        android:layout_marginEnd="98dp"
+        android:ems="10"
+        android:hint="القران الكريم20%"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColorHint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@+id/alahsa" />
+
+    <EditText
+        android:id="@+id/aslameah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="104dp"
+        android:layout_marginEnd="97dp"
+        android:ems="10"
+        android:hint="الاسلامية40%"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColorHint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@+id/alquraan" />
+
+    <EditText
+        android:id="@+id/arabc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="104dp"
+        android:layout_marginEnd="97dp"
+        android:ems="10"
+        android:hint="اللغة العربية80%"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aslameah" />
+
+    <EditText
+        android:id="@+id/english"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="102dp"
+        android:layout_marginEnd="99dp"
+        android:ems="10"
+        android:hint="اللغة الانجليزية80%"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/arabc" />
+
+    <EditText
+        android:id="@+id/sport"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="101dp"
+        android:layout_marginEnd="100dp"
+        android:ems="10"
+        android:hint="البدنية20%"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/english" />
+
+    <EditText
+        android:id="@+id/hasob"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="105dp"
+        android:layout_marginEnd="96dp"
+        android:ems="10"
+        android:hint="الحاسوب20%"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sport" />
+
+    <EditText
+        android:id="@+id/dstor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="108dp"
+        android:layout_marginEnd="93dp"
+        android:ems="10"
+        android:hint="الدستور20%"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hasob" />
+
+    <EditText
+        android:id="@+id/gographa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="108dp"
+        android:layout_marginEnd="93dp"
+        android:ems="10"
+        android:hint="الجغرافيا80%"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dstor" />
+
+    <EditText
+        android:id="@+id/hstory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="108dp"
+        android:layout_marginEnd="93dp"
+        android:ems="10"
+        android:hint="التاريخ80%"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gographa" />
+
+    <EditText
+        android:id="@+id/franc80"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="110dp"
+        android:layout_marginEnd="91dp"
+        android:ems="10"
+        android:hint="اللغة الفرنسية80%"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hstory" />
+
+    <EditText
+        android:id="@+id/pholosofy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="111dp"
+        android:layout_marginEnd="90dp"
+        android:ems="10"
+        android:hint="الفلسفة60%"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/franc80" />
+
+    <EditText
+        android:id="@+id/totaal2"
+        android:layout_width="157dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="40dp"
+        android:ems="10"
+        android:hint="المجموع للدرجات"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pholosofy" />
+
+    <Button
+        android:id="@+id/button22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="90dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="@color/white"
+        android:text="احسب"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/resetbtn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/totaal2" />
+
+    <Button
+        android:id="@+id/resetbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="@color/white"
+        android:text="الاعادة"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button22"
+        app:layout_constraintTop_toBottomOf="@+id/totaal2"
+        app:layout_constraintVertical_bias="0.576" />
+
+    <EditText
+        android:id="@+id/nasba2"
+        android:layout_width="39dp"
+        android:layout_height="43dp"
+        android:layout_marginEnd="3dp"
+        android:ems="10"
+        android:hint="الدرجه"
+        android:inputType="textPersonName"
+        android:textColor="@color/blue"
+        android:textColorHint="@color/blue"
+        app:layout_constraintEnd_toStartOf="@+id/total"
+        app:layout_constraintStart_toEndOf="@+id/totaal2"
+        app:layout_constraintTop_toBottomOf="@+id/pholosofy" />
+
+    <EditText
+        android:id="@+id/total"
+        android:layout_width="127dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginEnd="7dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="النسبه"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/nasba2"
+        app:layout_constraintTop_toBottomOf="@+id/pholosofy" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -4,8 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
+import android.widget.Toast;
 
 import com.denzcoskun.imageslider.ImageSlider;
 import com.denzcoskun.imageslider.constants.ScaleTypes;
@@ -14,8 +17,9 @@ import com.denzcoskun.imageslider.models.SlideModel;
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
-    public CardView aladby1,alalmi2,tips3,quiz4;
+    public CardView aladby1,alalmi2,tips3,quiz4,Calculator5;
     ImageSlider imageSlider;
+    Button btnCall;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,6 +30,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         alalmi2= findViewById(R.id.al3lmy);
           tips3= findViewById(R.id.tipsCardView);
           quiz4= findViewById(R.id.quiz);
+         Calculator5 = findViewById(R.id.Calculator);
+          btnCall= findViewById(R.id.callbtn);
 
         imageSlider = findViewById(R.id.image_slider);
 
@@ -43,7 +49,21 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
          alalmi2.setOnClickListener(this);
          tips3.setOnClickListener(this);
          quiz4.setOnClickListener(this);
+         Calculator5.setOnClickListener(this);
 
+
+         btnCall.setOnClickListener(new View.OnClickListener() {
+             @Override
+             public void onClick(View view) {
+                  Intent intent = new Intent(Intent.ACTION_DIAL);
+                  intent.setData(Uri.parse("tel:+96596000000"));
+                  startActivity(intent);
+
+
+
+                 Toast.makeText(MainActivity.this, "سوف يتم تحويلك للتواصل معنا", Toast.LENGTH_LONG).show();
+             }
+         });
     }
 
     @Override
@@ -68,6 +88,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             case R.id.quiz:
                 intent= new Intent(this,Quiz.class);
+                startActivity(intent);
+                break;
+
+            case R.id.Calculator:
+                intent= new Intent(this,Calculator.class);
                 startActivity(intent);
                 break;
 
